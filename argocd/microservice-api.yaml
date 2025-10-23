@@ -8,7 +8,7 @@ spec:
   source:
     repoURL: 'https://github.com/lara44/sabana.architecture.argocd'
     targetRevision: main
-    path: k8s
+    path: helm/microservice-chart
   destination:
     server: 'https://kubernetes.default.svc'
     namespace: api
